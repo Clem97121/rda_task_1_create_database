@@ -24,7 +24,7 @@ CustomerID INT,
 FOREIGN KEY (CustomerID)
 	REFERENCES Customers(ID)
 	ON DELETE SET NULL,
-Date DATETIME
+Date DATE
 );
 
 
